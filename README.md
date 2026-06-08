@@ -88,3 +88,6 @@ is_last|bool|false|Set to true on the last slide to invert background
 ### 🧩 Core Utilities (Internal)
 - regular-pattern(color1, color2, n, small_part, big_part, h) Generates a horizontal band of alternating colored triangles used for header/footer borders.
 - triangle-grid(color1, color2, n) Generates the full-page checkerboard triangle pattern used for the title slide background.
+## 🤩 Template outputs
+![title slide](title-slide.png)
+![task slide](task.png)
