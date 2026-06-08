@@ -19,7 +19,7 @@ Follow these **three simple steps** to integrate the template into your Typst pr
 
 1️⃣ **Import** the template at the very top of your `.typ` file:
 ```typst
-#import "dudi-colorful-template.typ" : *
+#import "@preview/dudi-colorful-template:0.1.0": *
 ```
 2️⃣ **Configure** the page and document text settings:
 ```typst
