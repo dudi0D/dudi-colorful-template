@@ -1,4 +1,4 @@
-#import "dudi-colorful-template.typ": *
+#import "@preview/dudi-colorful-template:0.1.0": *
 
 #set page(
   paper: "presentation-16-9",

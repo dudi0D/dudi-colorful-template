@@ -17,12 +17,11 @@ A vibrant, modern presentation template for **Typst** featuring dynamic geometri
 
 Follow these **three simple steps** to integrate the template into your Typst project:
 
-1️⃣ **Download** the `dudi-colorful-template.typ` file and place it in your working directory.  
-2️⃣ **Import** the template at the very top of your `.typ` file:
+1️⃣ **Import** the template at the very top of your `.typ` file:
 ```typst
 #import "dudi-colorful-template.typ" : *
 ```
-3️⃣ Configure the page and document text settings:
+2️⃣ **Configure** the page and document text settings:
 ```typst
 #set page(
   paper: "presentation-16-9",
@@ -35,7 +34,7 @@ Follow these **three simple steps** to integrate the template into your Typst pr
 ## 💻 Quick Start Example (example.typ)
 Here is a complete, ready-to-run example to kickstart your presentation:
 ```typst
-#import "dudi-colorful-template.typ": *
+#import "@preview/dudi-colorful-template:0.1.0": *
 
 #set page(
   paper: "presentation-16-9",
@@ -88,6 +87,3 @@ is_last|bool|false|Set to true on the last slide to invert background
 ### 🧩 Core Utilities (Internal)
 - regular-pattern(color1, color2, n, small_part, big_part, h) Generates a horizontal band of alternating colored triangles used for header/footer borders.
 - triangle-grid(color1, color2, n) Generates the full-page checkerboard triangle pattern used for the title slide background.
-## 🤩 Template outputs
-![title slide](title-slide.png)
-![task slide](task.png)
